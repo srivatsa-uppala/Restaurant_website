@@ -33,10 +33,6 @@ a{
     text-decoration: none;
     color: rgb(148, 20, 20);
 }
-/* .a1:hover{
-    background: rgba(53, 28, 28, 0.418);
-    
-} */
 main{
     height: auto;
     width: 100%;
@@ -117,7 +113,7 @@ h1{
     margin: 40px 130px;
     background-image: linear-gradient(to right, blue, rgb(212, 0, 255));
 }
-.s3{
+/* .s3{
     width: 100%;
     height: 100%;
 }
@@ -161,6 +157,14 @@ h1{
 .s3__card__btn__360{
     border: 2px solid black;
     margin: 4px 97px;
+} */
+.s__text{
+    padding-top: 5%;
+    margin-top: 0%;
+}
+.s__head2{
+    font-size: 30px;
+    font-family: 'Rampart One', cursive;
 }
 .s4{
     background-image: linear-gradient(45deg, #5433ff,#20bdff,#a5fecb );
@@ -302,7 +306,7 @@ h1{
     .s__head2{
         font-size: 60px;
     }
-    .s3__card__container{
+    /* .s3__card__container{
         gap: 5%;
         display: flex;
         flex-wrap: wrap;
@@ -330,7 +334,7 @@ h1{
     }
     .s3__card__btn2__768{
         margin: 5% 7%;
-    }
+    } */
     .s3p2img{
         width: 59%;
         box-shadow: 16px 18px 10px rgb(0 0 0 / 73%);
@@ -419,12 +423,12 @@ h1{
     .s__head2{
         margin: 1%;
     }
-    .card__img:hover{
+    /* .card__img:hover{
 
         transition: .6s; 
         transform-origin: bottom;
         transform: scaleX(-1);
-    }
+    } */
     .s3p2img{
         width: 48%;
     }
@@ -476,5 +480,8 @@ h1{
         transform: scale(1.5);
         z-index: 2;
         transition: 1s;
+    }
+    .footer__container2{
+        margin: 2%;
     }
 }
