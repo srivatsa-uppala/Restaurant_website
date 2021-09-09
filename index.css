@@ -42,6 +42,7 @@ main{
     text-align: center;
     color: white;
     border-bottom: 5px solid gray;
+    background-image: linear-gradient(180deg, #8181ca ,#e8b85e);
 }
 .s1__img1{
     height: 100%;
@@ -52,7 +53,7 @@ main{
     top: 0%;
     background: #00000073;
     width: 100%;
-    height: 100%;
+    height: 98%;
 }
 .p1{
     font-size: 25px;
@@ -88,22 +89,11 @@ h1{
     background-image:linear-gradient(to bottom, orange,pink) ;
     border-bottom:5px solid gray ;
 }
-.s2__container__sub{
-    position: relative;
-}
 .s2__img1{
     border-radius: 10px;
     height: 100%;
     width: 100%;
     border: 8px solid rgba(255, 255, 255, 0.185);
-}
-.s2__img__overlay{
-    position: absolute;
-    top: -1%;
-    background: #00000021;
-    width: 97%;
-    height: 48%;
-    margin: 4% 4% 0% 1.5%;
 }
 .button{
     padding: 5px;
@@ -387,10 +377,6 @@ h1{
         background: rgba(0, 0, 0, 0.445);
         transition: 3s ease-out;
     }
-    
-    .s1__container{
-        background-image: linear-gradient(180deg, #8181ca ,#e8b85e);
-    }
     .s1__img1{
         width: 84%;
 
@@ -404,12 +390,6 @@ h1{
     }
     .s2__img1{
         width: 65%;
-    }
-    .s2__img__overlay{
-        top: -4%;
-        width: 63%;
-        height: 66%;
-        left: 17%;
     }
     .s__text{
         padding-top: 2%;
@@ -439,16 +419,11 @@ h1{
     .s3p2img5__container{
         margin: 4% 10%;
     }
-    
+    .footer__container2{
+        margin: 2%;
+    }
 }
 @media(min-width:1254px){
-    
-    .s2__img__overlay{
-        top: -5%;
-        width: 63.6%;
-        height: 68%;
-        left: 16.5%;
-    }
     .s3__card__container{
         display: flex;
         flex-direction: row;
@@ -480,8 +455,5 @@ h1{
         transform: scale(1.5);
         z-index: 2;
         transition: 1s;
-    }
-    .footer__container2{
-        margin: 2%;
     }
 }

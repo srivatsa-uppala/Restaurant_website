@@ -7,9 +7,8 @@ body{
     padding: 0%;
     text-align: center;
     color: black;
-    background-color: #b8c6db;
-    background-image: linear-gradient(90deg, #b8c6db , #f5f7fa );
-    
+    background-color: #ffcfdf;
+    background-image: linear-gradient(315deg, #ffcfdf 0%, #b0f3f1 74%);
 }
 .nav__bar{
     position: sticky;
@@ -35,38 +34,11 @@ a{
     text-decoration: none;
     color: rgb(148, 20, 20);
 }
-main{
-    border-bottom: 5px solid gray;
+/* main css */
+h1{
+    font-family: 'Rampart One', cursive;
 }
-.email__container{
-    width: 70%;
-    background: rgba(0, 0, 0, 0.404);
-    margin: 0% 15%;
-    border-radius: 5px;
-}
-
-.p{
-    margin: 5% 25%;
-    font-size: 16px;
-    text-decoration: underline;
-}
-.number__container{
-    width: 70%;
-    background: rgba(0, 0, 0, 0.404);
-    margin: 0% 15%;
-    border-radius: 5px;
-    text-align: left;
-    padding-left: 2%;
-}
-.pn{
-    margin: 5% 33%;
-    font-size: 16px;
-    text-decoration: underline;
-}
-.text__location{
-    display: inline;
-    margin: 0% 5%;
-}
+/*footer css*/
 .footer__social__container{
     margin: 2%;
 }
@@ -87,4 +59,30 @@ main{
 }
 .footer__copyright{
     display: inline;
+}
+/*media query 768px*/
+@media(min-width: 768px) {
+    .a1{
+        font-size: 24px;
+    }
+    .footer__p{
+        margin: 4%;
+    }
+}
+/* media query 1024px*/
+@media(min-width : 1024px){
+    .a:hover .a1:hover{
+        padding: 5px;
+        font-size: 15px;
+        border-radius: 5px;
+        color: white;
+        border: 2px solid rgb(0, 0, 0);
+        background: black;   
+        transition: .5s; 
+        transform-origin: bottom;
+        transform: scaleY(-1);
+    }
+    .footer__container2{
+        margin: 2%;
+    }
 }
