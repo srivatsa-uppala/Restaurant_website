@@ -386,11 +386,7 @@ h1{
         background: #b8c6db;
         background-image: linear-gradient(136deg, #9da8b9 0%, #f5f7fa 140%);
     }
-    .menu__item__name__link:hover{
-        border: 5px solid rgb(157, 168, 199);
-        border-style: inset;
-        transition: 1s;
-    }
+    
     .min9{
         font-size: 25px;
     }
