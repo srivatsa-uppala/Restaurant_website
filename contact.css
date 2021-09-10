@@ -88,3 +88,35 @@ main{
 .footer__copyright{
     display: inline;
 }
+@media(min-width:768px){
+    .email__container{
+        width: 40%;
+        margin: 0% 30%;
+    }
+    .number__container{
+        width: 40%;
+        margin: 0% 30%;
+    }
+    .text__location{
+        margin: 0% 2%;
+    }
+    .footer__container2{
+        margin: 2%;
+    }
+}
+@media(min-width:1024px){
+    .email__container{
+        width: 30%;
+        margin: 0% 35%;
+    }
+    .number__container{
+        width: 30%;
+        margin: 0% 35%;
+    }
+    .text__location{
+        margin: 0% 2%;
+    }
+    .footer__container2{
+        margin: 2%;
+    }
+}
